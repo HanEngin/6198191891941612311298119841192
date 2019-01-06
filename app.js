@@ -328,4 +328,4 @@ if(message.content === prefix + 'info'){
 	 message.channel.send('Gönderiyorum Hemen' + message.author).then(message => {message.delete(2000).then(message => {message.channel.send(embed)})})
 }});
 
-client.login("nabacan");
+client.login("process.env.BOT_TOKEN");
